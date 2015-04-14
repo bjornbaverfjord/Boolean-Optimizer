@@ -9,8 +9,7 @@ and cached, given enough time and an efficient searcher.
 
 
 This F# function was not optimised by the F# 3.0 compiler:
-<code>let booltest a b  = (a ||| b) &&& (~~~ (a &&& b))
-rrrr</code>
+<code>let booltest a b  = (a ||| b) &&& (~~~ (a &&& b))</code>
 
 It generated this CIL code:
 <code>[Ldarg 0; Ldarg 1; Or; Ldarg 0; Ldarg 1; And; Not; And]</code>
