@@ -1,11 +1,7 @@
 # Boolean-Optimizer
-Superoptimizer for bitwise functions
+This program is a superoptimizer for bitwise functions with up to 4 parameters that works by creating a dictionary of the shortest function for each possible truth-table. The code to be optimized has its truth-table calculated and the optimal solution is found in the dictionary.
 
-This program is an optimizer that can generate optimal code
-for any bitwise function with up to 4 parameters.
-
-Only 65536 such functions exists so they can be precomputed
-and cached, given enough time and an efficient searcher.
+Only 65536 such functions exists so they can be precomputed and cached, given enough time and an efficient searcher.
 
 
 This F# function was not optimised by the F# 3.0 compiler:
