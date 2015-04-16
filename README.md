@@ -12,6 +12,6 @@ It generated this CIL code:
 
 <code>[Ldarg 0; Ldarg 1; Or; Ldarg 0; Ldarg 1; And; Not; And]</code>
 
-Instead of the optimal code:
+Instead of the optimal code found by the optimizer:
 
 <code>[Ldarg 0; Ldarg 1; Xor]</code>
