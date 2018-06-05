@@ -15,3 +15,11 @@ It generated this CIL code:
 Instead of the optimal code found by the optimizer:
 
 <code>[Ldarg 0; Ldarg 1; Xor]</code>
+---
+It is 2018 and we have .net core 2.0, things have not improved...
+  mov         edx,ebx  
+  and         edx,esi  
+  not         edx  
+  mov         ecx,ebx  
+  or          ecx,esi  
+  and         edx,ecx
