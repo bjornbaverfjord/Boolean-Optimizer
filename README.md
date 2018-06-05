@@ -18,10 +18,9 @@ Instead of the optimal code found by the optimizer:
 
 ---
 It is 2018 and we have .net core 2.0, things have not improved...
-
-  mov         edx,ebx  
-  and         edx,esi  
-  not         edx  
-  mov         ecx,ebx  
-  or          ecx,esi  
-  and         edx,ecx
+<code>mov         edx,ebx</code>  
+<code>and         edx,esi</code>  
+<code>not         edx</code>  
+<code>mov         ecx,ebx</code>  
+<code>or          ecx,esi</code>  
+<code>and         edx,ecx</code>
