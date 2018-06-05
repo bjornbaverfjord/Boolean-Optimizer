@@ -18,6 +18,7 @@ Instead of the optimal code found by the optimizer:
 
 ---
 It is 2018 and we have .net core 2.0, things have not improved...
+
 <code>mov         edx,ebx</code>  
 <code>and         edx,esi</code>  
 <code>not         edx</code>  
